@@ -1,3 +1,4 @@
+version: 2
 project_name: nodey
 
 before:
@@ -17,22 +18,12 @@ builds:
     binary: nodey
 
 archives:
-  - format: tar.gz
-    # this name template makes the archive name compatible with the standard brew formula naming
+  - # this name template makes the archive name compatible with the standard brew formula naming
     name_template: >-
       {{ .ProjectName }}_{{ .Os }}_{{ .Arch }}
-    replacements:
-      darwin: Darwin
-      linux: Linux
-      windows: Windows
-      386: i386
-      amd64: x86_64
 
 checksum:
   name_template: 'checksums.txt'
-
-snapshot:
-  name_template: "{{ .Tag }}-next"
 
 changelog:
   sort: asc
