@@ -45,7 +45,7 @@ go build -o nodey main.go
 ### Install via Homebrew (MacOS)
 *Once released to a tap:*
 ```bash
-brew tap dhirajnikam/nodey
+brew tap dhirajnikam/tap
 brew install nodey
 ```
 
