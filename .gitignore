@@ -1,0 +1,10 @@
+# Binaries
+nodey
+dist/
+
+# System
+.DS_Store
+
+# Generated Flowcharts (Optional - keep if you want to track history)
+# *_flow.html
+# *_flow.json
