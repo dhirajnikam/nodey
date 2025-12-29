@@ -26,27 +26,10 @@
 ## 🛠️ Installation
 
 ### Prerequisites
-*   **Go** (1.18 or higher)
+*   **Homebrew** (Package manager for macOS)
 *   **OpenAI API Key**
 
-### Build from Source
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/nodey.git
-cd nodey
-
-# Install dependencies and build
-go mod tidy
-go build -o nodey main.go
-```
-
-### Install via Go
-```bash
-go install github.com/dhirajnikam/nodey@latest
-```
-
-### Install via Homebrew (MacOS)
-*Once released to a tap:*
+### Install via Homebrew
 ```bash
 brew tap dhirajnikam/tap
 brew install nodey
